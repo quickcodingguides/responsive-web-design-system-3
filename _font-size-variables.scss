@@ -1,0 +1,52 @@
+// Font Sizes
+$font_size_h1: 3.6rem;
+$font_size_h2: 3.25rem;
+$font_size_h3: 2.9rem;
+$font_size_h4: 2.55rem;
+$font_size_h5: 2.2rem;
+$font_size_h6: 1.85rem;
+$font_size_body_1: 1.5rem;
+$font_size_body_2: 1.5rem; // Buttons Labels
+$font_size_caption: 1.35rem; // Overline
+$line_height_multiplier: 1.45;
+
+// Font Size with Line Height
+.fs_h1 {
+    font-size: $font_size_h1;
+    line-height: calc(#{$font_size_h1} * #{$line_height_multiplier});
+}
+
+.fs_h2 {
+    font-size: $font_size_h2;
+    line-height: calc(#{$font_size_h2} * #{$line_height_multiplier});
+}
+
+.fs_h3 {
+    font-size: $font_size_h3;
+    line-height: calc(#{$font_size_h3} * #{$line_height_multiplier});
+}
+
+.fs_h4 {
+    font-size: $font_size_h4;
+    line-height: calc(#{$font_size_h4} * #{$line_height_multiplier});
+}
+.fs_h5 {
+    font-size: $font_size_h5;
+    line-height: calc(#{$font_size_h5} * #{$line_height_multiplier});
+}
+
+.fs_h6 {
+    font-size: $font_size_h6;
+    line-height: calc(#{$font_size_h6} * #{$line_height_multiplier});
+}
+
+.fs_p {
+    font-size: $font_size_p;
+    line-height: calc(#{$font_size_p} * #{$line_height_multiplier});
+}
+
+.fs_l,
+.fs_i {
+    font-size: $font_size_label;
+    line-height: calc(#{$font_size_label} * #{$line_height_multiplier});
+}
