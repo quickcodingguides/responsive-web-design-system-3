@@ -61,5 +61,5 @@ $line_height_multiplier: 1.45;
 .fs_o {
     font-size: $font_size_caption;
     line-height: calc(#{$font_size_caption} * #{$line_height_multiplier});
-    letter-spacing: 0.1px;
+    letter-spacing: 0.2px;
 }
