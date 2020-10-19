@@ -15,52 +15,52 @@ $line_height_multiplier_2: 1.32;
 .fs_h1 {
     font-size: $font_size_h1;
     line-height: calc(#{$font_size_h1} * #{$line_height_multiplier_1});
-    letter-spacing: 0.025rem;
+    letter-spacing: 0.025em; // 0.025rem
 }
 
 .fs_h2 {
     font-size: $font_size_h2;
     line-height: calc(#{$font_size_h2} * #{$line_height_multiplier_1});
-    letter-spacing: 0.025rem;
+    letter-spacing: 0.025em; // 0.025rem
 }
 
 .fs_h3 {
     font-size: $font_size_h3;
     line-height: calc(#{$font_size_h3} * #{$line_height_multiplier_1});
-    letter-spacing: 0.025rem;
+    letter-spacing: 0.025em; // 0.025rem
 }
 
 .fs_h4 {
     font-size: $font_size_h4;
     line-height: calc(#{$font_size_h4} * #{$line_height_multiplier_1});
-    letter-spacing: 0.025rem;
+    letter-spacing: 0.025em; // 0.025rem
 }
 .fs_h5 {
     font-size: $font_size_h5;
     line-height: calc(#{$font_size_h5} * #{$line_height_multiplier_2});
-    letter-spacing: 0.015rem;
+    letter-spacing: 0.015em; // 0.015rem
 }
 
 .fs_h6 {
     font-size: $font_size_h6;
     line-height: calc(#{$font_size_h6} * #{$line_height_multiplier_2});
-    letter-spacing: 0.015rem;
+    letter-spacing: 0.015em; // 0.015rem
 }
 
 .fs_b1 {
     font-size: $font_size_body_1;
     line-height: calc(#{$font_size_body_1} * #{$line_height_multiplier_2});
-    letter-spacing: 0.015rem;
+    letter-spacing: 0.015em; // 0.015rem
 }
 .fs_b2 {
     font-size: $font_size_body_2;
     line-height: calc(#{$font_size_body_2} * #{$line_height_multiplier_2});
-    letter-spacing: 0.01rem;
+    letter-spacing: 0.01em; // 0.01rem
 }
 
 .fs_c,
 .fs_o {
     font-size: $font_size_caption;
     line-height: calc(#{$font_size_caption} * #{$line_height_multiplier_1});
-    letter-spacing: 0.02rem;
+    letter-spacing: 0.02em; // 0.02rem
 }
